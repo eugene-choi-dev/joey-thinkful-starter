@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(36, 36, 63);
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+
+@media all and (min-width: 700px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0 30px;
+    }
+
+    header h1{
+        font-size: 48px;
+        margin: 14px 0;
+        padding-top: 6 px;
+        padding-left: 20px;
+    }
+
+    header nav {
+        margin-top: 14px;
+    }
+
+    header nav ul li a:hover {
+        color: #bdbdbd;
+    }
+}
+
+
